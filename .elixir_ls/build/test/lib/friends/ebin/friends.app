@@ -1,0 +1,9 @@
+{application,friends,
+             [{applications,[kernel,stdlib,elixir,logger,mariaex,ecto_sql]},
+              {description,"friends"},
+              {modules,['Elixir.Friends','Elixir.Friends.Application',
+                        'Elixir.Friends.Person','Elixir.Friends.Repo',
+                        'Elixir.Friends.Weather']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.Friends.Application',[]}}]}.
